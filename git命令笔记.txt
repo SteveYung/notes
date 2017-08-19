@@ -26,3 +26,5 @@ git reset --hard b7057a9
 只是要恢复一个文件,如"hello.rb"
 git checkout -- hello.rb
 
+
+
