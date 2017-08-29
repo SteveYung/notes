@@ -27,4 +27,8 @@ git reset --hard b7057a9
 git checkout -- hello.rb
 
 
+8.单人本地和远程冲突，强制上传（多人协同操作不可如此）
+git push -u origin master -f 
+
+
 
