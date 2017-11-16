@@ -33,4 +33,9 @@
 8.关于Java和Cocos互相调用刷新UI的问题（直接掉会挂掉）
 	通过设置flag，然后在update里面判断flag的值，进行UI操作。
 
+9iTunes Store Operation Failed
+ERROR ITMS-90122: "Invalid Executable Size. The size of your app's executable file 'endlesswinter.app/endlesswinter' is 81412096 bytes, which exceeds the maximum allowed size of 80 MB."
+
+更新Xcode或者是使用Application Loader上传
+
 
