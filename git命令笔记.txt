@@ -34,6 +34,6 @@ git push -u origin master -f
 git merge master
 
 10.彻底删除git中的文件
-git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch path-to-your-remove-file' --prune-empty --tag-name-filter cat -- --all
-
+文件:git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch path-to-your-remove-file' --prune-empty --tag-name-filter cat -- --all
+文件夹:git filter-branch --force --index-filter 'git rm -rf --cached --ignore-unmatch path-to-your-remove-file' --prune-empty --tag-name-filter cat -- --all
 
