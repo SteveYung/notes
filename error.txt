@@ -46,8 +46,6 @@ ERROR ITMS-90122: "Invalid Executable Size. The size of your app's executable fi
 	3.Replace the current App Store icon with the newly exported icon image
 	4.Validate and upload
 
-11.git云端覆盖本地
-git fetch --all
-git reset --hard origin/master
+
 
 

@@ -37,3 +37,6 @@ git merge master
 文件:git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch path-to-your-remove-file' --prune-empty --tag-name-filter cat -- --all
 文件夹:git filter-branch --force --index-filter 'git rm -rf --cached --ignore-unmatch path-to-your-remove-file' --prune-empty --tag-name-filter cat -- --all
 
+11.git云端覆盖本地
+git fetch --all
+git reset --hard origin/master
